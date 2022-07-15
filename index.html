@@ -4,6 +4,59 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      div {
+        color: red;
+        background: black;
+        font-size: 16px;
+      }
+      #div_test {
+        background: yellow;
+        padding:10px;
+
+      }
+      .class_test {
+        background: green;
+      }
+
+      .center-horizontally {
+        display: flex;
+        justify-content: center;
+      }
+
+      .center-vertically {
+        display: flex;
+        align-items: center;
+      }
+      .space-between {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .container {
+        background: cyan;
+      }
+
+      .square {
+        background: orange;
+        width: 72px;
+        height: 72px;
+      }
+      .blue {
+        background: blue;
+      }
+      .lightgreen {
+        background: lightgreen;
+      }
+      .pink {
+        background: pink;
+      }
+      .circle{
+        width:72px;
+        height: 72px;
+        border-radius: 100%;
+      }
+    </style>
     <title>Hello world do Igor</title>
   </head>
   <body>
@@ -16,5 +69,19 @@
     <span>Isso é um span</span>
     <span> Isso é apos o span</span>
     <h1>Hello World</h1>
+    <div id="div_test">teste</div>
+    <div class="class_test">teste com classe</div>
+    <div class="class_test">teste</div>
+    <div class="container space-between">
+      <div class="square pink center-vertically center-horizontally">1</div>
+      <div class="circle blue center-vertically center-horizontally">2</div>
+      <div class="square lightgreen center-vertically center-horizontally">
+        3
+      </div>
+    </div>
+
+
+
+    <div class="class_test">teste</div>
   </body>
 </html>
